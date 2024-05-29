@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/NPRUCS66site/static/css/main.9c849f67.css",
+    "main.js": "/NPRUCS66site/static/js/main.21127b9f.js",
+    "static/media/DFPOPCorn-W7.ttf": "/NPRUCS66site/static/media/DFPOPCorn-W7.ecbae07c887e5474d902.ttf",
+    "static/media/Prompt-Medium.ttf": "/NPRUCS66site/static/media/Prompt-Medium.13aa547876aaa510c372.ttf",
+    "static/media/logo66.png": "/NPRUCS66site/static/media/logo66.846168d575f6cab520e0.png",
+    "static/media/medicinehover.png": "/NPRUCS66site/static/media/medicinehover.e3d46f7e08f29a602aef.png",
+    "static/media/medicineidle.png": "/NPRUCS66site/static/media/medicineidle.a168bcc1632942490ef2.png",
+    "index.html": "/NPRUCS66site/index.html",
+    "main.9c849f67.css.map": "/NPRUCS66site/static/css/main.9c849f67.css.map",
+    "main.21127b9f.js.map": "/NPRUCS66site/static/js/main.21127b9f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c849f67.css",
+    "static/js/main.21127b9f.js"
+  ]
+}
