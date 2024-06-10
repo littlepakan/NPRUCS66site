@@ -1,6 +1,11 @@
-export { default as Contact } from './contact/Contact';
-export { default as Donation } from './donation/Donation';
-export { default as Home } from './home/Home';
-export { default as Links } from './links/Links';
-export { default as Motivation } from './motivation/Motivation';
-export { default as News } from './news/News';
+//หน้า Page
+export { default as Contact } from './Contact';
+export { default as Donation } from './Donation';
+export { default as Home } from './Home';
+export { default as Links } from './Links';
+export { default as Motivation } from './Motivation';
+export { default as News } from './News';
+export { default as Experiments } from './Experiments';
+
+//หน้า SubPage
+export { default as Mentor } from './Mentor';

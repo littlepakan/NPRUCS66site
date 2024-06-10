@@ -1,18 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-// import App from './App';
-import "./index.css";
+
 import { 
   createBrowserRouter,
   RouterProvider,
  } from 'react-router-dom';
-import Home from './pages/home/Home.jsx';
-import News from './pages/news/News.jsx';
-import Links from './pages/links/Links.jsx';
-import Motivation from './pages/motivation/Motivation.jsx';
-import Donation from './pages/donation/Donation.jsx';
-import Contact from './pages/contact/Contact';
 
+ // import App from './App';
+import "./index.css";
+
+//Page Path
+import Home from './pages/Home.jsx';
+import News from './pages/News.jsx';
+import Links from './pages/Links.jsx';
+// import Motivation from './pages/Motivation.jsx';
+import Experiments from './pages/Experiments.jsx';
+import Donation from './pages/Donation.jsx';
+import Contact from './pages/Contact.jsx';
+
+//SubPage Path
+import Mentor from './pages/Mentor.jsx';
+
+
+//Page Router
 const router = createBrowserRouter([
   {
     path: "/",
@@ -26,9 +36,13 @@ const router = createBrowserRouter([
     path: "/links",
     element: <Links />
   },
+  // {
+  //   path: "/motivation",
+  //   element: <Motivation />
+  // },
   {
-    path: "/motivation",
-    element: <Motivation />
+    path: "/experiments",
+    element: <Experiments />
   },
   {
     path: "/donation",
@@ -37,6 +51,11 @@ const router = createBrowserRouter([
   {
     path: "/contact",
     element: <Contact />
+  },
+  ///////////////////////////////////////////////////////////////////////
+  {
+    path: "/mentor",
+    element: <Mentor />
   }
 ])
 

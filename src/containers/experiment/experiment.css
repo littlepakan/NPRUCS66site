@@ -1,0 +1,28 @@
+.NPRUCS66_experiment-description {
+  width: 100%;
+  text-align: center;
+  color: rgb(255, 123, 123);
+
+  margin-bottom: 2rem;
+}
+
+.clickTest {
+  padding: 0.8rem 1.5rem;
+}
+
+.NPRUCS66_experiment-container_group {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 1000px) {
+
+}
+
+@media screen and (max-width: 700px) {
+
+}
+
+@media screen and (max-width: 550px) {
+
+}

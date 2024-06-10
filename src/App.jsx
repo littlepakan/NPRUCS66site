@@ -31,17 +31,7 @@ const App = () => {
     //ในการส่งกลับนั้น เป็นการส่งแบบ HTML และจะมีเพียง Parent Element แค่ 1 แท็กเท่านั้น (a.k.a. root element)
     //ซึ่งจะเปิดด้วย <Fragment> </Fragment> หรือ <> </> เปล่าๆ ก็ได้
     <Fragment>
-      {/* <Router>
-        <Routes>
-          <Route path='/' element={<Home />}/>
-          <Route path='/news' element={<News />}/>
-          <Route path='/links' element={<Links />}/>
-          <Route path='/motivation' element={<Motivation />}/>
-          <Route path='/donation' element={<Donation />}/>
-          <Route path='/contact' element={<Contact />}/>
-        </Routes>
-      </Router> */}
-      <div className="App">
+      {/* <div className="App">
         <div className="navbar_bg">
           <Navbar />
         </div>
@@ -50,8 +40,7 @@ const App = () => {
         </div>
         <Blog />
         <Footer />
-      </div>
-      
+      </div> */}
     </Fragment>
   )
 };  

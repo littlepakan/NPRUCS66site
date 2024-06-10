@@ -10,7 +10,7 @@ const Footer = () => {
           NPRU-CS 66
         </h1>
         <h2 className='gradient_text'>
-          version 0.4.0
+          version 0.4.1
         </h2>
       </div>
       <div className='NPRUCS66_footer-links'>
@@ -19,17 +19,17 @@ const Footer = () => {
         </div> */}
           <div className='NPRUCS66_footer-links_div'>
             <h4>Links</h4>
-            <p>sss</p>
-            <p>sss</p>
-            <p>sss</p>
-            <p>sss</p>
+            <p>WIP</p>
+            <p>WIP</p>
+            <p>WIP</p>
+            <p>WIP</p>
           </div>
           <div className='NPRUCS66_footer-links_div'>
             <h4>Links</h4>
-            <p>sss</p>
-            <p>sss</p>
-            <p>sss</p>
-            <p>sss</p>
+            <p>WIP</p>
+            <p>WIP</p>
+            <p>WIP</p>
+            <p>WIP</p>
           </div>
       </div>
       {/* <div className='NPRUCS66_footer-copyright'>

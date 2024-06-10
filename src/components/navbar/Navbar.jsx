@@ -1,55 +1,58 @@
 import React, { useState } from 'react';
 import logo from '../../assets/images/logo66.png'
 import './navbar.css';
-import { RiCloseLine, RiMenu3Line } from 'react-icons/ri';
+import {
+  RiCloseLine,
+  RiMenu3Line 
+} from 'react-icons/ri';
 import { Link } from 'react-router-dom';
+
+//sfx
+import click from '../../assets/sounds/click.wav';
+import back from '../../assets/sounds/back.wav';
 
 //BEM -> Block Element Modifier
 
-// const Menu = () => (
-//   <>
-//     <p>
-//       <a href="#home">หน้าแรก</a>
-//     </p>
-//     <p className='wip'>
-//       <a href="#news">ข่าวสาร</a>
-//     </p>
-//     <p>
-//       <a href="#links">ลิงก์</a>
-//     </p>
-//     <p>
-//       <a href="#motivation">แรงบันดาลใจ</a>
-//     </p>
-//     <p>
-//       <a href="#donation">บริจาค</a>
-//     </p>
-//     <p>
-//       <a href="#contact">ติดต่อ</a>
-//     </p>
-//   </>
-// )
+const th_click = () => {
+  new Audio(click).play()
+};
+
+const th_back = () => {
+  new Audio(back).play()
+};
 
 function Menu () {
+
   return (
     <>
       <p>
-        <Link to='/'>หน้าแรก</Link>
+        <Link to='/' onClick={th_click}>หน้าแรก</Link>
       </p>
+
       <p>
-        <Link to='/news'>ข่าวสาร</Link>
+        <Link className='wip' to='/news' onClick={th_click}>ข่าวสาร</Link>
       </p>
+
       <p>
-        <Link to='/links'>ลิงก์</Link>
+        <Link to='/links' onClick={th_click}>ลิงก์ </Link>
       </p>
+
+      {/* <p>
+        <Link to='/motivation' onClick={th_click}>แรงบันดาลใจ</Link>
+      </p> */}
+
       <p>
-        <Link to='/motivation'>แรงบันดาลใจ</Link>
+        <Link to='/experiments' onClick={th_click}>ของทดลอง</Link>
       </p>
+
       <p>
-        <Link to='/donation'>บริจาค</Link>
+        <Link to='/donation' onClick={th_click}>บริจาค</Link>
       </p>
+
       <p>
-        <Link to='/contact'>ติดต่อ</Link>
+        <Link to='/contact' onClick={th_click}>ติดต่อ</Link>
       </p>
+      
     </>
     
   )
@@ -62,9 +65,9 @@ const Navbar = () => {
     <div className='NPRUCS66_navbar'>
       <div className='NPRUCS66_navbar-links'>
         <div className='NPRUCS66_navbar-links_logo'>
-          <a href="#home">
+          <Link to='/' onClick={th_back}>
             <img src={logo} alt="logo" />
-          </a>
+          </Link>
         </div>
         <div className='NPRUCS66_navbar-links_container'>
           <Menu />
@@ -74,9 +77,9 @@ const Navbar = () => {
         {/* <p>
               Sign in
         </p> */}
-        <button type="button">
-          เข้าสู่ระบบ
-        </button>
+        {/* <button type="button">
+          เข้าสู่ระบบ                   |   //ปลดตรงนี้นะ เมดิ
+        </button> */}
         {/* <button type="button">
           Sign up
         </button> */}
@@ -94,9 +97,9 @@ const Navbar = () => {
                 {/* <p>
                   Sign in
                 </p> */}
-                <button type="button">
-                  เข้าสู่ระบบ
-                </button>
+                {/* <button type="button">
+                  เข้าสู่ระบบ                   |   //ปลดตรงนี้นะ เมดิ
+                </button> */}
                 {/* <button type="button">
                   Sign up
                 </button> */}
