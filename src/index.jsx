@@ -20,10 +20,12 @@ import Contact from './pages/Contact.jsx';
 
 //SubPage Path
 import Mentor from './pages/Mentor.jsx';
+import UserEdit from './pages/UserEdit.jsx';
 
 
 //Page Router
 const router = createBrowserRouter([
+  //////////////////////////////    Mainpages    ///////////////////////////////////
   {
     path: "/",
     element: <Home />
@@ -52,10 +54,15 @@ const router = createBrowserRouter([
     path: "/contact",
     element: <Contact />
   },
-  ///////////////////////////////////////////////////////////////////////
+  //////////////////////////////    Subpages    ///////////////////////////////////
   {
     path: "/mentor",
     element: <Mentor />
+  },
+  {
+    //Individual Editing
+    path: "/useredit/:id",
+    element: <UserEdit />
   }
 ])
 

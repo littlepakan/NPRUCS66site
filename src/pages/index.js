@@ -9,3 +9,4 @@ export { default as Experiments } from './Experiments';
 
 //หน้า SubPage
 export { default as Mentor } from './Mentor';
+export { default as UserEdit } from './UserEdit';

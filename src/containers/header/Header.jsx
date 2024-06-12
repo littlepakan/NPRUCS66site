@@ -8,10 +8,10 @@ const Header = () => {
     <div className='NPRUCS66_header' id='home'>
       <div className='NPRUCS66_header-content'>
         <h1 className='gradient_text'>
-          ยินดีต้อนรับสู่เว็บไซต์
+          ยินดีต้อนรับสู่
         </h1>
         <h1 className='gradient_text'>
-          NPRU-CS 66
+          NPRU-CS 66 Website
         </h1>
         <p>
           พัฒนาโดย ปกานต์ วงษ์ท่าเรือ
