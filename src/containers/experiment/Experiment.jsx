@@ -2,7 +2,7 @@
 import './experiment.css';
 import click from '../../assets/sounds/click.wav';
 
-import FormUsers from '../formuser/FormUsers';
+// import FormUsers from '../formuser/FormUsers';
 
 // const [users, setUsers] = useState([]);
 
@@ -35,22 +35,6 @@ const Button2 = () => {
 
 // --------------------------------------------
 const Experiment = () => {
-  // const [users, setUsers] = useState([]);
-
-  // useEffect(() => {
-  //   fetch("/api/users")
-  //   .then(res => res.json())
-  //   .then(data => setUsers(data));
-  // }, []);
-
-  // function renderUsers() {
-  //   return users.map((user, i) =>{
-  //     return <div key={i}>
-  //       <h3>ID: {user.id}</h3>
-  //       <p>Name: {user.name}</p>
-  //     </div>
-  //   })
-  // }
 
   return (
     <div className='NPRUCS66_experiment' id='experiment'>
@@ -61,7 +45,7 @@ const Experiment = () => {
         <p className='NPRUCS66_experiment-description'>
           หน้านี้เอาไว้ทดลองผลลัพธ์ของคำสั่งต่างๆ จาก Source Code ซึ่งเป็นของที่อาจใส่เข้ามาในอนาคต (a.k.a. leaks)
         </p>
-        <FormUsers />
+        {/* <FormUsers /> */}
       </div>
       <div className='NPRUCS66_experiment-container'>
         <div className='NPRUCS66_experiment-container_group'>
