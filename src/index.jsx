@@ -19,7 +19,7 @@ import Donation from './pages/Donation.jsx';
 import Contact from './pages/Contact.jsx';
 
 //SubPage Path
-import Mentor from './pages/Mentor.jsx';
+import Mentors from './pages/Mentors.jsx';
 import UserEdit from './pages/UserEdit.jsx';
 
 
@@ -56,8 +56,8 @@ const router = createBrowserRouter([
   },
   //////////////////////////////    Subpages    ///////////////////////////////////
   {
-    path: "/mentor",
-    element: <Mentor />
+    path: "/mentors",
+    element: <Mentors />
   },
   {
     //Individual Editing
