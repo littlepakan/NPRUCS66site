@@ -174,3 +174,22 @@ td {
     font-size: 20px;
   }
 }
+
+@media screen and (max-width: 300px){
+  .th_schedule, .td_schedule {
+    font-size: 4px;
+  }
+  .NPRUCS66_schedule-description1 {
+    font-size: 5px;
+  }
+  .NPRUCS66_schedule-description2 {
+    font-size: 5px;
+  }
+  .Cut {
+    font-size: 7px;
+  }
+  .s43,.s44 {
+    margin-bottom: 15px;
+    font-size: 15px;
+  }
+}
