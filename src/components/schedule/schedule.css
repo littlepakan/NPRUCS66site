@@ -27,8 +27,6 @@ td {
   border: 2px solid rgb(255, 0, 0);
   border-collapse: collapse;
   position: relative;
-  display: flex;
-  justify-content: center;
 }
 
 /* .head_detail {
@@ -155,17 +153,24 @@ td {
   }
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 600px){
   .table_schedule {
     width: 400px;
   }
+  .th_schedule, .td_schedule {
+    font-size: 8px;
+  }
   .NPRUCS66_schedule-description1 {
-    font-size: 7px;
+    font-size: 9px;
   }
   .NPRUCS66_schedule-description2 {
-    font-size: 7px;
+    font-size: 9px;
   }
   .Cut {
-    font-size: 10px;
+    font-size: 14px;
+  }
+  .s43,.s44 {
+    margin-bottom: 20px;
+    font-size: 20px;
   }
 }
