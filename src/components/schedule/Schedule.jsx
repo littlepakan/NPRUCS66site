@@ -141,7 +141,7 @@ const Schedule = () => {
             <td colSpan="1" className='friday td_schedule'>วันศุกร์</td>
             <td colSpan="1" className='Space td_schedule'></td>
             <td colSpan="6" className='friday td_schedule'>
-              1500102 | 15/13/2<br />
+              1500102 | ห้อง A3-331<br />
               08:30 - 11:30
             </td>
             <td colSpan="19" className='Space td_schedule'></td>
@@ -288,7 +288,7 @@ const Schedule = () => {
             <td colSpan="1" className='friday td_schedule'>วันศุกร์</td>
             <td colSpan="9" className='Space td_schedule'></td>
             <td colSpan="6" className='friday td_schedule'>
-              1500102 | 331<br />
+              1500102 | A3-331<br />
               12:30 - 15:30
             </td>
             <td colSpan="11" className='Space td_schedule'></td>
