@@ -133,10 +133,12 @@ td {
 
 @media screen and (max-width: 600px){
   .table_schedule {
+    border: 0px solid rgb(255, 0, 0);
     width: 400px;
   }
   .th_schedule, .td_schedule {
     font-size: 8px;
+    border: 1px solid rgb(255, 0, 0);
   }
   .NPRUCS66_schedule-description1 {
     font-size: 9px;
