@@ -11,7 +11,7 @@ const Schedule = () => {
       <h2 className='s43'>หมู่เรียน 66/43</h2>
         <div className='NPRUCS66_schedule_box'>
           <p className='NPRUCS66_schedule-description1'>
-          ===============================================<br />
+          -----------------------------------------------<br />
           2000202 สีสันแห่งชีวิต<br />
           อาจารย์หลายท่าน (8 ท่าน)<br />
           -----------------------------------------------<br />
@@ -33,7 +33,7 @@ const Schedule = () => {
           </p>
           <br />
           <p className='NPRUCS66_schedule-description2'>
-          ===============================================<br />
+          -----------------------------------------------<br />
           เวลา 13:30 - 16:30 น. | วันพุธ<br />
           ห้อง ป.A3<br />
           -----------------------------------------------<br />
@@ -141,7 +141,7 @@ const Schedule = () => {
             <td colSpan="1" className='friday td_schedule'>วันศุกร์</td>
             <td colSpan="1" className='Space td_schedule'></td>
             <td colSpan="6" className='friday td_schedule'>
-              1500102 | ห้อง A3-331<br />
+              1500102 | A3-331<br />
               08:30 - 11:30
             </td>
             <td colSpan="19" className='Space td_schedule'></td>
@@ -149,14 +149,11 @@ const Schedule = () => {
         </tbody>
       </table>
       </div>
-      <br /><br />
-      <p className='Cut'>==============================================================</p>
-      <br /><br />
-      <div className='NPRUCS66_schedule-heading'>
+      <div className='mt NPRUCS66_schedule-heading'>
       <h2 className='s44'>หมู่เรียน 66/44</h2>
         <div className='NPRUCS66_schedule_box'>
           <p className='NPRUCS66_schedule-description1'>
-          ===============================================<br />
+          -----------------------------------------------<br />
           2000202 สีสันแห่งชีวิต<br />
           อาจารย์หลายท่าน (7 ท่าน)<br />
           -----------------------------------------------<br />
@@ -178,7 +175,7 @@ const Schedule = () => {
           </p>
           <br />
           <p className='NPRUCS66_schedule-description2'>
-          ===============================================<br />
+          -----------------------------------------------<br />
           เวลา 12:30 - 15:30 น. | วันจันทร์<br />
           ห้อง ป.A3<br />
           -----------------------------------------------<br />
