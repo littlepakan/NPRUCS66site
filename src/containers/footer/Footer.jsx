@@ -10,7 +10,7 @@ const Footer = () => {
           NPRU-CS 66
         </h1>
         <h2 className='gradient_text'>
-          version 0.4.1
+          version 0.6.1
         </h2>
       </div>
       <div className='NPRUCS66_footer-links'>
