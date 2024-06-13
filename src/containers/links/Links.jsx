@@ -2,8 +2,6 @@
 import './experiment.css';
 import click from '../../assets/sounds/click.wav';
 
-import FormUsers from '../formuser/FormUsers';
-
 // const [users, setUsers] = useState([]);
 
 // useEffect(() => {
