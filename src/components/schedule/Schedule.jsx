@@ -57,94 +57,94 @@ const Schedule = () => {
         </div>
       </div>
       <div>
-      <table className="table_schedule">
+      <table className="table_schedule id='s43'">
         <thead>
           <tr className="head_detail">
-            <th className="head_spaceday" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
+            <th className="head_spaceday" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
           </tr>
         </thead>
         <tbody>
           <tr className="body_detail-monday">
-            <td colspan="1" className='monday td_schedule'>วันจันทร์</td>
-            <td colspan="15" className='Space td_schedule'></td>
-            <td colspan="6" className='monday td_schedule'>
+            <td colSpan="1" className='monday td_schedule'>วันจันทร์</td>
+            <td colSpan="15" className='Space td_schedule'></td>
+            <td colSpan="6" className='monday td_schedule'>
               1500201 | 15/13/2<br />
               15:30 - 18:30
             </td>
-            <td colspan="5" className='Space td_schedule'></td>
+            <td colSpan="5" className='Space td_schedule'></td>
           </tr>
           {/* //////////////////////////////////////////////////// */}
           <tr className="body_detail-tuesday">
-            <td colspan="1" className='tuesday td_schedule'>วันอังคาร</td>
-            <td colspan="9" className='Space td_schedule'></td>
-            <td colspan="6" className='tuesday td_schedule'>
+            <td colSpan="1" className='tuesday td_schedule'>วันอังคาร</td>
+            <td colSpan="9" className='Space td_schedule'></td>
+            <td colSpan="6" className='tuesday td_schedule'>
               7142104 | C503<br />
               12:30 - 15:30
             </td>
-            <td colspan="11" className='Space td_schedule'></td>
+            <td colSpan="11" className='Space td_schedule'></td>
           </tr>
           {/* //////////////////////////////////////////////////// */}
           <tr className="body_detail-wednesday">
-            <td colspan="1" className='wednesday td_schedule'>วันพุธ  </td>
-            <td colspan="11" className='Space td_schedule'></td>
-            <td colspan="6" className='wednesday td_schedule'>
+            <td colSpan="1" className='wednesday td_schedule'>วันพุธ  </td>
+            <td colSpan="11" className='Space td_schedule'></td>
+            <td colSpan="6" className='wednesday td_schedule'>
               7142104 | M.A3<br />
               13:30 - 16:30
             </td>
-            <td colspan="9" className='Space td_schedule'></td>
+            <td colSpan="9" className='Space td_schedule'></td>
           </tr>
           {/* //////////////////////////////////////////////////// */}
           <tr className="body_detail-thursday">
-            <td colspan="1" className='thursday td_schedule'>วันพฤหัสบดี</td>
-            <td colspan="1" className='Space td_schedule'></td>
-            <td colspan="8" className='thursday td_schedule'>
+            <td colSpan="1" className='thursday td_schedule'>วันพฤหัสบดี</td>
+            <td colSpan="1" className='Space td_schedule'></td>
+            <td colSpan="8" className='thursday td_schedule'>
               7142401 | C210<br />
               08:30 - 12:30
               </td>
-            <td colspan="2" className='Space td_schedule'>
+            <td colSpan="2" className='Space td_schedule'>
               1 ชั่วโมง
               </td>
-            <td colspan="6" className='thursday td_schedule'>
+            <td colSpan="6" className='thursday td_schedule'>
               7142101 | C503<br />
               13:30 - 16:30
               </td>
-            <td colspan="9" className='Space td_schedule'></td>
+            <td colSpan="9" className='Space td_schedule'></td>
           </tr>
           {/* //////////////////////////////////////////////////// */}
           <tr className="body_detail-friday">
-            <td colspan="1" className='friday td_schedule'>วันศุกร์</td>
-            <td colspan="1" className='Space td_schedule'></td>
-            <td colspan="6" className='friday td_schedule'>
+            <td colSpan="1" className='friday td_schedule'>วันศุกร์</td>
+            <td colSpan="1" className='Space td_schedule'></td>
+            <td colSpan="6" className='friday td_schedule'>
               1500102 | 15/13/2<br />
-              15:30 - 18:30
+              08:30 - 11:30
             </td>
-            <td colspan="19" className='Space td_schedule'></td>
+            <td colSpan="19" className='Space td_schedule'></td>
           </tr>
         </tbody>
       </table>
@@ -202,96 +202,96 @@ const Schedule = () => {
         </div>
       </div>
       <div>
-      <table className="table_schedule">
+      <table className="table_schedule" id='s44'>
         <thead>
           <tr className="head_detail">
-            <th className="head_spaceday" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
-            <th className="head_space" colspan="1" scope="col"></th>
+            <th className="head_spaceday" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
+            <th className="head_space" colSpan="1" scope="col"></th>
           </tr>
         </thead>
         <tbody>
           <tr className="body_detail-monday">
-            <td colspan="1" className='monday td_schedule'>วันจันทร์</td>
-            <td colspan="9" className='Space td_schedule'></td>
-            <td colspan="6" className='monday td_schedule'>
+            <td colSpan="1" className='monday td_schedule'>วันจันทร์</td>
+            <td colSpan="9" className='Space td_schedule'></td>
+            <td colSpan="6" className='monday td_schedule'>
               2000202 | M.A3<br />
               12:30 - 15:30 <br />
             </td>
-            <td colspan="11" className='Space td_schedule'></td>
+            <td colSpan="11" className='Space td_schedule'></td>
           </tr>
           {/* //////////////////////////////////////////////////// */}
           <tr className="body_detail-tuesday">
-            <td colspan="1" className='tuesday td_schedule'>วันอังคาร</td>
-            <td colspan="1" className='Space td_schedule'></td>
-            <td colspan="6" className='tuesday td_schedule'>
+            <td colSpan="1" className='tuesday td_schedule'>วันอังคาร</td>
+            <td colSpan="1" className='Space td_schedule'></td>
+            <td colSpan="6" className='tuesday td_schedule'>
               1500201 | 15/13/2<br />
               08:30 - 11:30<br />
             </td>
-            <td colspan="8" className='Space td_schedule'>
+            <td colSpan="8" className='Space td_schedule'>
               4 ชั่วโมง
             </td>
-            <td colspan="6" className='tuesday td_schedule'>
+            <td colSpan="6" className='tuesday td_schedule'>
               7142104 | C506<br />
               15:30 - 18:30<br />
             </td>
-            <td colspan="5" className='Space td_schedule'></td>
+            <td colSpan="5" className='Space td_schedule'></td>
           </tr>
           {/* //////////////////////////////////////////////////// */}
           <tr className="body_detail-wednesday">
-            <td colspan="1" className='wednesday td_schedule'>วันพุธ</td>
-            <td colspan="26" className='Space td_schedule'></td>
+            <td colSpan="1" className='wednesday td_schedule'>วันพุธ</td>
+            <td colSpan="26" className='Space td_schedule'></td>
           </tr>
           {/* //////////////////////////////////////////////////// */}
           <tr className="body_detail-thursday">
-            <td colspan="1" className='thursday td_schedule'>วันพฤหัสบดี</td>
-            <td colspan="1" className='Space td_schedule'></td>
-            <td colspan="6" className='thursday td_schedule'>
+            <td colSpan="1" className='thursday td_schedule'>วันพฤหัสบดี</td>
+            <td colSpan="1" className='Space td_schedule'></td>
+            <td colSpan="6" className='thursday td_schedule'>
               7142101 | C503<br />
               08:30 - 11:30
             </td>
-            <td colspan="4" className='Space td_schedule'>
+            <td colSpan="4" className='Space td_schedule'>
               2 ชั่วโมง
             </td>
-            <td colspan="8" className='thursday td_schedule'>
+            <td colSpan="8" className='thursday td_schedule'>
               7142401 | C210<br />
               13:30 - 17:30
               </td>
-            <td colspan="9" className='Space td_schedule'></td>
+            <td colSpan="9" className='Space td_schedule'></td>
           </tr>
           {/* //////////////////////////////////////////////////// */}
           <tr className="body_detail-friday">
-            <td colspan="1" className='friday td_schedule'>วันศุกร์</td>
-            <td colspan="9" className='Space td_schedule'></td>
-            <td colspan="6" className='friday td_schedule'>
+            <td colSpan="1" className='friday td_schedule'>วันศุกร์</td>
+            <td colSpan="9" className='Space td_schedule'></td>
+            <td colSpan="6" className='friday td_schedule'>
               1500102 | 331<br />
               12:30 - 15:30
             </td>
-            <td colspan="11" className='Space td_schedule'></td>
+            <td colSpan="11" className='Space td_schedule'></td>
           </tr>
         </tbody>
       </table>
