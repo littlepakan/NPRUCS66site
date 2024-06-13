@@ -149,9 +149,9 @@ const Schedule = () => {
         </tbody>
       </table>
       </div>
-      <br /><br /><br />
+      <br /><br />
       <p className='Cut'>==============================================================</p>
-      <br /><br /><br />
+      <br /><br />
       <div className='NPRUCS66_schedule-heading'>
       <h2 className='s44'>หมู่เรียน 66/44</h2>
         <div className='NPRUCS66_schedule_box'>
