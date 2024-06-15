@@ -1,6 +1,7 @@
 // import React, { useEffect, useState } from 'react';
 import './experiment.css';
-import click from '../../assets/sounds/click.wav';
+import thclick from '../../assets/sounds/thclick.wav';
+import { Link } from 'react-router-dom';
 
 // import FormUsers from '../formuser/FormUsers';
 
@@ -14,7 +15,7 @@ import click from '../../assets/sounds/click.wav';
 
 const Button1 = () => {
   const handleClick = () => {
-    new Audio(click).play()
+    new Audio(thclick).play()
   };
   return (
     <>
@@ -29,6 +30,28 @@ const Button2 = () => {
   return (
     <>
       <button className='clickTest' onClick={handleClick}>Click 2 this</button>
+    </>
+  );
+}
+const Button3 = () => {
+  const handleClick = () => {
+    new Audio(thclick).play()
+  };
+  return (
+    <>
+      
+      <Link to='/' className="Linkstest" onClick={handleClick} >หน้าแรก</Link>
+
+    </>
+  );
+}
+const Button4 = () => {
+  const handleClick = () => {
+    alert("นี้คือ ตัวหนังสือกดได้นะ -เมดิ");
+  };
+  return (
+    <>
+      <a className='clickTest' onClick={handleClick}>Click 2 this</a>
     </>
   );
 }
@@ -51,11 +74,23 @@ const Experiment = () => {
         <div className='NPRUCS66_experiment-container_group'>
           <Button1 />
           <Button2 />
+          <Button3 />
         </div>
         <div className='NPRUCS66_experiment-container_group'>
           <Button1 />
           <Button2 />
         </div>
+        <div className='box'>
+          <div className='NPRUCS66_experiment-container_groupv'>
+            <Button3 />
+            <Button3 />
+          </div>
+          <div className='NPRUCS66_experiment-container_groupv'>
+            <Button3 />
+            <Button4 />
+          </div>
+        </div>
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
       </div>
       {/* ------------------------------------------------ */}
 

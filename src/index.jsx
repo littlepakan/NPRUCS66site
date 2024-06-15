@@ -22,6 +22,7 @@ import Contact from './pages/Contact.jsx';
 import Mentors from './pages/Mentors.jsx';
 import UserEdit from './pages/UserEdit.jsx';
 import Schedules from './pages/Schedules.jsx';
+import Linksbeta from './pages/Linksbeta.jsx';
 
 //Page Router
 const router = createBrowserRouter([
@@ -63,6 +64,11 @@ const router = createBrowserRouter([
     //Individual Editing
     path: "/useredit/:id",
     element: <UserEdit />
+  },
+  {
+    //Individual Editing
+    path: "/linksbeta",
+    element: <Linksbeta />
   },
   {
     path: "/schedules",

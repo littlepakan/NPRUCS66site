@@ -1,5 +1,12 @@
 import React from 'react';
 import './article.css';
+import therror from '../../assets/sounds/therror.wav';
+
+const th_error = () => {
+  new Audio(therror).play()
+};
+
+///////////////////////////////////////////////////////////
 
 const Article = ({imgUrl, date, title}) => {
   return (
@@ -12,7 +19,7 @@ const Article = ({imgUrl, date, title}) => {
           <p>{date}</p>
           <h4>{title}</h4>
         </div>
-        <p>- คลิกเพื่ออ่าน -</p>
+        <p onClick={th_error}>- คลิกเพื่ออ่าน -</p>
       </div>
     </div>
   )

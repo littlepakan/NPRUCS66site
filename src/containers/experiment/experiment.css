@@ -2,17 +2,37 @@
   width: 100%;
   text-align: center;
   color: rgb(255, 123, 123);
-
   margin-bottom: 2rem;
+}
+
+
+
+.Linkstest {
+  background-color: rgb(255, 255, 255);
+  width: 250px;
+  text-align: center;
 }
 
 .clickTest {
   padding: 0.8rem 1.5rem;
+  cursor: pointer;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
 }
 
 .NPRUCS66_experiment-container_group {
   display: flex;
   justify-content: space-evenly;
+}
+
+.NPRUCS66_experiment-container_groupv {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
 }
 
 @media screen and (max-width: 1000px) {

@@ -10,6 +10,16 @@
   /* padding: 0rem 0rem; */
 }
 
+.navWIP {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.200);
+  font-size: 18px;
+  line-height: 25px;
+  /* width: 70px; */
+  text-align: center;
+  margin: 0 1rem;
+}
+
 .NPRUCS66_navbar-links {
   flex: 1;
   display: flex;
@@ -18,8 +28,10 @@
 }
 
 .NPRUCS66_navbar-links_logo img {
-  width: 348px;
-  height: 84px;
+  /* width: 348px;
+  height: 84px; */
+  width: 249px;
+  height: 60px;
 }
 
 .NPRUCS66_navbar-links_container {
@@ -44,6 +56,8 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 25px;
+  /* width: 70px; */
+  text-align: center;
   text-transform: capitalize;
 
   margin: 0 1rem;

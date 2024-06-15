@@ -8,50 +8,85 @@ import {
 import { Link } from 'react-router-dom';
 
 //sfx
-import click from '../../assets/sounds/click.wav';
-import back from '../../assets/sounds/back.wav';
+import thclick from '../../assets/sounds/thclick.wav';
+import thback from '../../assets/sounds/thback.wav';
+import therror from '../../assets/sounds/therror.wav';
 
 //BEM -> Block Element Modifier
 
 const th_click = () => {
-  new Audio(click).play()
+  new Audio(thclick).play()
 };
 
 const th_back = () => {
-  new Audio(back).play()
+  new Audio(thback).play()
 };
 
-function Menu () {
+const th_error = () => {
+  new Audio(therror).play()
+};
 
+///////////////////////////////////////////////////////////
+
+const NewsWIP = () => {
+  return (
+    <a className='navWIP' onClick={th_error}>ข่าวสาร</a>
+  );
+}
+
+const LinksWIP = () => {
+  return (
+    <a className='navWIP' onClick={th_error}>ลิงก์</a>
+  );
+}
+
+const DonationWIP = () => {
+  return (
+    <a className='navWIP' onClick={th_error}>บริจาค</a>
+  );
+}
+
+const ContactWIP = () => {
+  return (
+    <a className='navWIP' onClick={th_error}>ติดต่อ</a>
+  );
+}
+
+function Menu () {
   return (
     <>
       <p>
         <Link to='/' onClick={th_click}>หน้าแรก</Link>
       </p>
 
-      <p>
-        <Link className='wip' to='/news' onClick={th_click}>ข่าวสาร</Link>
-      </p>
+      {/* <p>
+        <Link to='/news' onClick={th_click}>ข่าวสาร</Link>
+      </p> */}
+      <NewsWIP />
 
-      <p>
-        <Link to='/links' onClick={th_click}>ลิงก์ </Link>
-      </p>
+      {/* <p>
+        <Link to='/links' onClick={th_click}>ลิงก์ </Link>  ใช้ beta ก่อนนะ
+        <Link to='/linksbeta' onClick={th_click}>ลิงก์ </Link>
+      </p> */}
+      <LinksWIP />
 
       {/* <p>
         <Link to='/motivation' onClick={th_click}>แรงบันดาลใจ</Link>
       </p> */}
 
       <p>
-        <Link to='/experiments' onClick={th_click}>ของทดลอง</Link>
+        <Link to='/experiments' onClick={th_click}>ทดลอง</Link>
       </p>
 
-      <p>
-        <Link to='/donation' onClick={th_click}>บริจาค</Link>
-      </p>
+      {/* <p>
+        <Link to='/donation' className='wip' onClick={th_click}>บริจาค</Link>
+      </p> */}
+      <DonationWIP />
 
-      <p>
-        <Link to='/contact' onClick={th_click}>ติดต่อ</Link>
-      </p>
+      {/* <p>
+        <Link to='/contact' className='wip' onClick={th_click}>ติดต่อ</Link>
+      </p> */}
+      <ContactWIP />
       
     </>
     
