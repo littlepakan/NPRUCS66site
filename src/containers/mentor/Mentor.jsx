@@ -215,8 +215,8 @@ const Mentor = () => {
             <td className='Hint3 td_mentor'>-</td>
           </tr>
           <tr className="body_detail-even">
-            <td className='Number td_mentor '>674245026</td>
-            <td className='Name'>นางสาวพัชชา ไผ่ทอง</td>
+            <td className='Number td_mentor'>674245026</td>
+            <td className='Name td_mentor'>นางสาวพัชชา ไผ่ทอง</td>
             <td className='Hint1 td_mentor'>-</td>
             <td className='Hint2 td_mentor'>-</td>
             <td className='Hint3 td_mentor'>-</td>
