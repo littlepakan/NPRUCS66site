@@ -196,8 +196,8 @@ const Mentor = () => {
           <tr className="body_detail-odd">
             <td className='Number td_mentor '>674245023</td>
             <td className='Name td_mentor'>นางสาวเพ็ชรลดา เกิดนุสนธ์</td>
-            <td className='Hint1 td_mentor'>-</td>
-            <td className='Hint2 td_mentor'>39</td>
+            <td className='Hint1 td_mentor'>39</td>
+            <td className='Hint2 td_mentor'>-</td>
             <td className='Hint3 td_mentor'>-</td>
           </tr>
           <tr className="body_detail-even">
