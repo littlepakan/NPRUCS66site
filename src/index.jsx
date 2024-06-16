@@ -66,7 +66,6 @@ const router = createBrowserRouter([
     element: <UserEdit />
   },
   {
-    //Individual Editing
     path: "/linksbeta",
     element: <Linksbeta />
   },

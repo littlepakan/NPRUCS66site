@@ -47,11 +47,12 @@ const Button3 = () => {
 }
 const Button4 = () => {
   const handleClick = () => {
+    new Audio(thclick).play()
     alert("นี้คือ ตัวหนังสือกดได้นะ -เมดิ");
   };
   return (
     <>
-      <a className='clickTest' onClick={handleClick}>Click 2 this</a>
+      <p className='clickTest' onClick={handleClick}>Click 2 this</p>
     </>
   );
 }
@@ -82,6 +83,7 @@ const Experiment = () => {
         </div>
         <div className='box'>
           <div className='NPRUCS66_experiment-container_groupv'>
+            <Button3 />
             <Button3 />
             <Button3 />
           </div>

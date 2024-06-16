@@ -10,15 +10,13 @@
   /* padding: 0rem 0rem; */
 }
 
-.navWIP {
+/* .navWIP {
   cursor: pointer;
   color: rgba(255, 255, 255, 0.200);
   font-size: 18px;
   line-height: 25px;
-  /* width: 70px; */
   text-align: center;
-  margin: 0 1rem;
-}
+} */
 
 .NPRUCS66_navbar-links {
   flex: 1;
@@ -62,6 +60,13 @@
 
   margin: 0 1rem;
   cursor: pointer;
+  .navWIP {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.200);
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0;
+  }
 }
 
 .NPRUCS66_navbar-sign button,
@@ -101,13 +106,14 @@
   top: 40px;
   right: 0;
   margin-top: 1rem;
-  min-width: 190px;
+  min-width: 150px;
   border-radius: 5px;
   box-shadow: 0 0 5 rgba(0,0,0,0.2);
 }
 
 .NPRUCS66_navbar-menu_container p {
   margin: 1rem 0;
+  text-align: end;
 }
 
 .NPRUCS66_navbar-menu_container-links-sign {

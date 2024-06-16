@@ -1,0 +1,111 @@
+.NPRUCS66_linkcon {
+    display: flex;
+    flex-direction: column;
+  
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(121, 0, 0);
+  
+    padding: 2rem 3rem;
+}
+
+.NPRUCS66_linkcon-button {
+    color: white;
+    padding: 0.8rem 1.5rem;
+    cursor: pointer;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 0.2rem;
+    transition: 0.1s;
+    min-height: 42px;
+    max-height: 42px;
+}
+
+.NPRUCS66_linkcon-buttonwip {
+  color: rgba(255, 255, 255, 0.2);
+  padding: 0.8rem 1.5rem;
+  cursor: pointer;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  border: 1px solid rgb(255, 255, 255);
+  margin: 0.2rem;
+  transition: 0.1s;
+  min-height: 42px;
+  max-height: 42px;
+}
+
+.NPRUCS66_linkcon-button:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.NPRUCS66_linkcon-container_group_inside {
+    display: flex;
+    flex-direction: column;
+    .NPRUCS66_linkcon-container_group_inside_head {
+        text-align: center;
+        color: white;
+        font-size: 24px;
+        padding: 1rem ;
+    }
+}
+  
+  .NPRUCS66_linkcon-heading {
+    width: 100%;
+    text-align: left;
+  
+    margin-bottom: 2rem;
+  }
+  
+  /* .NPRUCS66_linkcon-heading h1 {
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.04rem;
+  } */
+  
+  .NPRUCS66_linkcon-description {
+    color: white;
+    text-align: center;
+  }
+  
+  .NPRUCS66_linkcon-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .NPRUCS66_linkcon-container_group {
+    flex: 1;
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .NPRUCS66_linkcon-container {
+      flex-direction: column;
+    }
+    .NPRUCS66_linkcon-container_group {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  
+    .NPRUCS66_linkcon-heading h1 {
+      font-size: 46px;
+      line-height: 52px;
+    }
+  }
+  
+  @media screen and (max-width: 750px) {
+    .NPRUCS66_linkcon-container_group {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  
+  @media screen and (max-width: 550px) {
+    .NPRUCS66_linkcon-heading h1 {
+      font-size: 34px;
+      line-height: 42px;
+    }
+  }

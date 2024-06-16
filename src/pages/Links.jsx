@@ -11,7 +11,7 @@ import { Navbar } from '../components';
 import { Fragment } from 'react';
 
 //containers
-import { Footer } from '../containers';
+import { Footer, Linkcon } from '../containers';
 const Links = () => {
   return (
     <Fragment>
@@ -22,6 +22,7 @@ const Links = () => {
         <div className="gradient_bg">
           {/* <Header /> */}
         </div>
+        <Linkcon />
         <Footer />
       </div>
       

@@ -30,28 +30,28 @@ const th_error = () => {
 
 const NewsWIP = () => {
   return (
-    <a className='navWIP' onClick={th_error}>ข่าวสาร</a>
+    <p className='navWIP' onClick={th_error}>ข่าวสาร</p>
   );
 }
 
-const LinksWIP = () => {
-  return (
-    <a className='navWIP' onClick={th_error}>ลิงก์</a>
-  );
-}
+// const LinksWIP = () => {
+//   return (
+//     <a className='navWIP' onClick={th_error}>ลิงก์</a>
+//   );
+// }
 
 const DonationWIP = () => {
   return (
-    <a className='navWIP' onClick={th_error}>บริจาค</a>
+    <p className='navWIP' onClick={th_error}>บริจาค</p>
   );
 }
 
 const ContactWIP = () => {
   return (
-    <a className='navWIP' onClick={th_error}>ติดต่อ</a>
+    <p className='navWIP' onClick={th_error}>ติดต่อ</p>
   );
 }
-
+///////////////////////////////////////////////////////////
 function Menu () {
   return (
     <>
@@ -62,14 +62,15 @@ function Menu () {
       {/* <p>
         <Link to='/news' onClick={th_click}>ข่าวสาร</Link>
       </p> */}
+      <p>
       <NewsWIP />
-
+      </p>
+      <p>
+        <Link to='/links' onClick={th_click}>ลิงก์ </Link>
+      </p>
       {/* <p>
-        <Link to='/links' onClick={th_click}>ลิงก์ </Link>  ใช้ beta ก่อนนะ
-        <Link to='/linksbeta' onClick={th_click}>ลิงก์ </Link>
-      </p> */}
       <LinksWIP />
-
+      </p> */}
       {/* <p>
         <Link to='/motivation' onClick={th_click}>แรงบันดาลใจ</Link>
       </p> */}
@@ -81,13 +82,15 @@ function Menu () {
       {/* <p>
         <Link to='/donation' className='wip' onClick={th_click}>บริจาค</Link>
       </p> */}
+      <p>
       <DonationWIP />
-
+      </p>
       {/* <p>
         <Link to='/contact' className='wip' onClick={th_click}>ติดต่อ</Link>
       </p> */}
+      <p>
       <ContactWIP />
-      
+      </p>
     </>
     
   )
