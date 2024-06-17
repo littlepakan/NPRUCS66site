@@ -218,20 +218,20 @@ const Mentor = () => {
             <td className='Number td_mentor'>674245026</td>
             <td className='Name td_mentor'>นางสาวพัชชา ไผ่ทอง</td>
             <td className='Hint1 td_mentor'>Ring</td>
-            <td className='Hint2 td_mentor'>ขึ้นต้นด้วย2ลงท้ายด้วย4คิคิ;)</td>
+            <td className='Hint2 td_mentor'>-</td>
             <td className='Hint3 td_mentor'>-</td>
           </tr>
           <tr className="body_detail-odd">
             <td className='Number td_mentor '>674245027</td>
             <td className='Name td_mentor'>นายพิเชษฐ์ชัย เปียหลิ่ม</td>
-            <td className='Hint1 td_mentor'>เป็นญาติกับผึ้ง</td>
+            <td className='Hint1 td_mentor'>ขึ้นต้นด้วย2ลงท้ายด้วย4คิคิ;)</td>
             <td className='Hint2 td_mentor'>-</td>
             <td className='Hint3 td_mentor'>-</td>
           </tr>
           <tr className="body_detail-even">
             <td className='Number td_mentor '>674245028</td>
             <td className='Name td_mentor'>นายภัทรเดช นันฝั้น</td>
-            <td className='Hint1 td_mentor'>-</td>
+            <td className='Hint1 td_mentor'>เป็นญาติกับผึ้ง</td>
             <td className='Hint2 td_mentor'>-</td>
             <td className='Hint3 td_mentor'>-</td>
           </tr>
