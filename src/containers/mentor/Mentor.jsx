@@ -98,7 +98,7 @@ const Mentor = () => {
           <tr className="body_detail-odd">
             <td className='Number td_mentor '>674245009</td>
             <td className='Name td_mentor'>นายวัชรพงษ์ บัวบังใบ</td>
-            <td className='Hint1 td_mentor'>-</td>
+            <td className='Hint1 td_mentor'>JM</td>
             <td className='Hint2 td_mentor'>-</td>
             <td className='Hint3 td_mentor'>-</td>
           </tr>
@@ -154,7 +154,7 @@ const Mentor = () => {
           <tr className="body_detail-odd">
             <td className='Number td_mentor '>674245017</td>
             <td className='Name td_mentor'>นายธนวิชญ์ โตใจธรรม</td>
-            <td className='Hint1 td_mentor'>-</td>
+            <td className='Hint1 td_mentor'>ทำงานในคอมเสร็จต้อง</td>
             <td className='Hint2 td_mentor'>-</td>
             <td className='Hint3 td_mentor'>-</td>
           </tr>
@@ -182,7 +182,7 @@ const Mentor = () => {
           <tr className="body_detail-odd">
             <td className='Number td_mentor '>674245021</td>
             <td className='Name td_mentor'>นายปัณณวัฒน์ อินทร์ไพร</td>
-            <td className='Hint1 td_mentor'>-</td>
+            <td className='Hint1 td_mentor'>อีสาน Bro</td>
             <td className='Hint2 td_mentor'>-</td>
             <td className='Hint3 td_mentor'>-</td>
           </tr>
@@ -420,7 +420,7 @@ const Mentor = () => {
           <tr className="body_detail-odd">
             <td className='Number td_mentor '>674245055</td>
             <td className='Name td_mentor'>นายภีระภัทร สุชัยคณารักษ์</td>
-            <td className='Hint1 td_mentor'>-</td>
+            <td className='Hint1 td_mentor'>เหมือนหลับตลอดเวลา</td>
             <td className='Hint2 td_mentor'>-</td>
             <td className='Hint3 td_mentor'>-</td>
           </tr>
