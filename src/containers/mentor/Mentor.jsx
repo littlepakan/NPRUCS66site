@@ -455,7 +455,7 @@ const Mentor = () => {
           <tr className="body_detail-even">
             <td className='Number td_mentor '>674245060</td>
             <td className='Name td_mentor'>นายรัฐภูมิ จอดเกาะ</td>
-            <td className='Hint1 td_mentor'>-</td>
+            <td className='Hint1 td_mentor'>"สุรบถ ?????"</td>
             <td className='Hint2 td_mentor'>-</td>
             <td className='Hint3 td_mentor'>-</td>
           </tr>
