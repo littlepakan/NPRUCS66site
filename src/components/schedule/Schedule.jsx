@@ -44,13 +44,13 @@ const Schedule = () => {
           ห้อง C210<br />
           -----------------------------------------------<br />
           เวลา 08:30 - 11:30 น. | วันศุกร์<br />
-          ห้อง A3-331<br />
+          ห้อง A1-1407<br />
           -----------------------------------------------<br />
           เวลา 15:30-18:30 น. | วันจันทร์<br />
           ห้อง 15/13/2<br />
           -----------------------------------------------<br />
           เวลา 12:30-15:30 น. | วันอังคาร<br />
-          ห้อง C506<br />
+          ห้อง C303<br />
           -----------------------------------------------<br />
           </p>
         <br />
@@ -104,7 +104,7 @@ const Schedule = () => {
             <td colSpan="1" className='tuesday td_schedule'>วันอังคาร</td>
             <td colSpan="9" className='Space td_schedule'></td>
             <td colSpan="6" className='tuesday td_schedule'>
-              7142104 | C503<br />
+              7142104 | C303<br />
               12:30 - 15:30
             </td>
             <td colSpan="11" className='Space td_schedule'></td>
@@ -141,7 +141,7 @@ const Schedule = () => {
             <td colSpan="1" className='friday td_schedule'>วันศุกร์</td>
             <td colSpan="1" className='Space td_schedule'></td>
             <td colSpan="6" className='friday td_schedule'>
-              1500102 | A3-331<br />
+              1500102 | A1-1407<br />
               08:30 - 11:30
             </td>
             <td colSpan="19" className='Space td_schedule'></td>
@@ -186,13 +186,13 @@ const Schedule = () => {
           ห้อง C210<br />
           -----------------------------------------------<br />
           เวลา 12:30 - 15:30 น. | วันศุกร์<br />
-          ห้อง A3-331<br />
+          ห้อง LI 4F<br />
           -----------------------------------------------<br />
           เวลา 08:30 - 11:30 น. | วันอังคาร<br />
           ห้อง 15/13/2<br />
           -----------------------------------------------<br />
           เวลา 15:30 - 18:30 น. | วันอังคาร<br />
-          ห้อง C506<br />
+          ห้อง C303<br />
           -----------------------------------------------<br />
           </p>
         <br />
@@ -253,7 +253,7 @@ const Schedule = () => {
               4 ชั่วโมง
             </td>
             <td colSpan="6" className='tuesday td_schedule'>
-              7142104 | C506<br />
+              7142104 | C303<br />
               15:30 - 18:30<br />
             </td>
             <td colSpan="5" className='Space td_schedule'></td>
@@ -285,7 +285,7 @@ const Schedule = () => {
             <td colSpan="1" className='friday td_schedule'>วันศุกร์</td>
             <td colSpan="9" className='Space td_schedule'></td>
             <td colSpan="6" className='friday td_schedule'>
-              1500102 | A3-331<br />
+              1500102 | LI 4F<br />
               12:30 - 15:30
             </td>
             <td colSpan="11" className='Space td_schedule'></td>

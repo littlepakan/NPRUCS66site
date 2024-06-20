@@ -42,7 +42,7 @@ const Mentor = () => {
           <tr className="body_detail-odd">
             <td className='Number td_mentor '>674245001</td>
             <td className='Name td_mentor'>นายคฑาวุธ อ่อนดี</td>
-            <td className='Hint1 td_mentor'>-</td>
+            <td className='Hint1 td_mentor'>ชื่อเล่นภาษาอังกฤษ</td>
             <td className='Hint2 td_mentor'>-</td>
             <td className='Hint3 td_mentor'>-</td>
           </tr>
@@ -91,7 +91,7 @@ const Mentor = () => {
           <tr className="body_detail-even">
             <td className='Number td_mentor '>674245008</td>
             <td className='Name td_mentor'>นายวชิระ มนัสปัญญากุล</td>
-            <td className='Hint1 td_mentor'>-</td>
+            <td className='Hint1 td_mentor'>ชอบเล่นฟุตบอล</td>
             <td className='Hint2 td_mentor'>-</td>
             <td className='Hint3 td_mentor'>-</td>
           </tr>
@@ -189,7 +189,7 @@ const Mentor = () => {
           <tr className="body_detail-even">
             <td className='Number td_mentor '>674245022</td>
             <td className='Name td_mentor'>นายปิยวัฒน์ ชูรอต</td>
-            <td className='Hint1 td_mentor'>-</td>
+            <td className='Hint1 td_mentor'>ขนมปัง</td>
             <td className='Hint2 td_mentor'>-</td>
             <td className='Hint3 td_mentor'>-</td>
           </tr>
