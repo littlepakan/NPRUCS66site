@@ -34,8 +34,8 @@ const Mentor = () => {
             <th className="th_mentor" scope="col">รหัสนักศึกษา</th>
             <th className="th_mentor" scope="col">ชื่อ-สกุล</th>
             <th className="th_mentor" scope="col">คำใบ้ #1 (17/06)</th>
-            <th className="th_mentor" scope="col">คำใบ้ #2 (??/??)</th>
-            <th className="th_mentor" scope="col">คำใบ้ #3 (??/??)</th>
+            <th className="th_mentor" scope="col">คำใบ้ #2 (21/06)</th>
+            <th className="th_mentor" scope="col">คำใบ้ #3 (01/07)</th>
           </tr>
         </thead>
         <tbody>
