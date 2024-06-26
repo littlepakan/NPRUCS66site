@@ -20,6 +20,10 @@ a {
     opacity: 0.1;
 }
 
+.width100 {
+    width: 100%;
+}
+
 .navbar_bg {
     background: black;
 }

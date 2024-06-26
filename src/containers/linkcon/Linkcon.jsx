@@ -26,6 +26,14 @@ const ScheduleButton = () => {
   );
 }
 
+const NameButton = () => {
+  return (
+    <>
+      <Link to='/stdlist' className='NPRUCS66_linkcon-button' onClick={th_click}>รายชื่อนักศึกษา</Link>
+    </>
+  );
+}
+
 // ไว้ใช้กดลิงก์สอบ เมื่อพร้อม
 // const ExamButton = () => {
 //   return (
@@ -61,18 +69,10 @@ const ExamWIPButton = () => {
   );
 }
 
-const NameWIPButton = () => {
-  return (
-    <p className='NPRUCS66_linkcon-buttonwip' onClick={th_error}>
-      รายชื่อนักศึกษา
-    </p>
-  );
-}
-
 const LeaveWIPButton = () => {
   return (
     <p className='NPRUCS66_linkcon-buttonwip' onClick={th_error}>
-      ยื่นใบลากิจ/ป่วย
+      ? ? ?
     </p>
   );
 }
@@ -102,7 +102,7 @@ const Linkcon = () => {
 
           <a className='NPRUCS66_linkcon-button' href="https://docs.google.com/spreadsheets/d/1KZjjdjPiYrJO527PIa-7PZq73aBRRI_qIq5URhX4kvQ/" traget="_blank">
             <p className=''>
-              การบ้าน (GS)
+              การบ้าน(GoogleSheet)
             </p>
           </a>
 
@@ -112,7 +112,7 @@ const Linkcon = () => {
             <p className='NPRUCS66_linkcon-container_group_inside_head'>
               ข้อมูล/ยื่นเรื่อง
             </p>
-          <NameWIPButton />
+          <NameButton />
           <MentorButton />
           <LeaveWIPButton />
           </div>

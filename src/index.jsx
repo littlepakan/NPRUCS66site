@@ -23,6 +23,7 @@ import Mentors from './pages/Mentors.jsx';
 import UserEdit from './pages/UserEdit.jsx';
 import Schedules from './pages/Schedules.jsx';
 import Linksbeta from './pages/Linksbeta.jsx';
+import StudentList from './pages/StudentList.jsx';
 
 //Page Router
 const router = createBrowserRouter([
@@ -72,7 +73,11 @@ const router = createBrowserRouter([
   {
     path: "/schedules",
     element: <Schedules />
-  }
+  },
+  {
+    path: "/stdlist",
+    element: <StudentList />
+  },
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(

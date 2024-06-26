@@ -11,3 +11,4 @@ export { default as Experiments } from './Experiments';
 export { default as Mentor } from './Mentor';
 export { default as UserEdit } from './UserEdit';
 export { default as Linksbeta } from './Linksbeta';
+export { default as StudentList } from './StudentList';
