@@ -86,7 +86,7 @@ const Mentor = () => {
             <td className='Name td_mentor'>นางสาวยวิษฐา แสงระวี</td>
             <td className='Hint1 td_mentor'>อาหมวย</td>
             <td className='Hint2 td_mentor'>Miracle</td>
-            <td className='Hint3 td_mentor'>-</td>
+            <td className='Hint3 td_mentor'>หนึ่งในที่ไปรับน้องและปรับพื้นฐาน</td>
           </tr>
           <tr className="body_detail-even">
             <td className='Number td_mentor '>674245008</td>
@@ -275,7 +275,7 @@ const Mentor = () => {
             <td className='Name td_mentor'>นายศิวกร หนูนาด</td>
             <td className='Hint1 td_mentor'>อาหมวย</td>
             <td className='Hint2 td_mentor'>Miracle</td>
-            <td className='Hint3 td_mentor'>-</td>
+            <td className='Hint3 td_mentor'>หนึ่งในที่ไปรับน้องและปรับพื้นฐาน</td>
           </tr>
           <tr className="body_detail-odd">
             <td className='Number td_mentor '>674245035</td>
